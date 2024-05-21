@@ -2,6 +2,15 @@
 
 BuidlBase Berlin Workshop - SpeedRunEthereum Token Vendor
 
+A token vendor is a machine from where you can buy and sell tokens. You can buy tokens with ETH or sell your tokens in exchange for ETH.
+
+The project uses ERC20 token. Some key learnings:
+
+- YourToken.sol inherits this openzepplin contract
+balanceOf allows you to check the balance of the address directly in ERC 20 :-)
+- ERC 20 has a transfer() function; many of the functions are already there.
+- ERC 20 has an approve patter that you need to apply before spending tokens. 
+
 1. Go to speedrunethereum.com, we'll be doing the Token Vendor challange. 
 
 https://speedrunethereum.com/challenge/token-vendor
